@@ -1,0 +1,20 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "ds131902.mlab.com",
+        "port": "31902",
+        "database": "strapi-test",
+        "username": "test-backenduser",
+        "password": "1Bankplus$ux"
+      },
+      "options": {
+        "authenticationDatabase": "",
+        "ssl": false
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "projects",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Images": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "Services": {
+      "collection": "services",
+      "via": "Projects",
+      "dominant": true
+    },
+    "Clients": {
+      "collection": "clients",
+      "via": "Projects",
+      "dominant": true
+    }
+  }
+}

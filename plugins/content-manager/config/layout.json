@@ -1,0 +1,52 @@
+{
+  "Services": {
+    "attributes": {
+      "Name": {
+        "appearance": ""
+      },
+      "Description": {
+        "appearance": ""
+      }
+    }
+  },
+  "projects": {
+    "attributes": {
+      "Name": {
+        "appearance": ""
+      },
+      "Description": {
+        "appearance": ""
+      }
+    }
+  },
+  "clients": {
+    "attributes": {
+      "Name": {
+        "appearance": ""
+      },
+      "Description": {
+        "appearance": ""
+      }
+    }
+  },
+  "services": {
+    "attributes": {
+      "Name": {
+        "appearance": ""
+      },
+      "Description": {
+        "appearance": ""
+      }
+    }
+  },
+  "Projects": {
+    "attributes": {
+      "Name": {
+        "appearance": ""
+      },
+      "Description": {
+        "appearance": ""
+      }
+    }
+  }
+}

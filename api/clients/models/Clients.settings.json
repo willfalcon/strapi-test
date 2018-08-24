@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "clients",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "services": {
+      "collection": "services",
+      "via": "clients",
+      "dominant": true
+    },
+    "Projects": {
+      "collection": "projects",
+      "via": "Clients"
+    }
+  }
+}
