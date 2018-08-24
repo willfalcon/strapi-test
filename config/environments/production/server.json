@@ -1,5 +1,5 @@
 {
-  "host": "localhost",
+  "host": "strapi-test.creativedistillery.com",
   "port": "${process.env.PORT || 1337}",
   "autoReload": {
     "enabled": false
